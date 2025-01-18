@@ -1,0 +1,109 @@
+body{
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+
+    height: 100vh;
+}
+p{
+    margin: 0px;
+}
+.full{
+    display: flex;
+    border-radius: 20px;
+
+    box-shadow: 5px 20px 15px rgba(78, 33, 202, 0.096);
+}
+
+.left{
+    background-color: hsl(252, 100%, 67%);
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    
+}
+
+.circle{
+    padding-top: 10px;
+    margin: auto;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: hsla(256, 72%, 46%, 1);
+}
+
+
+.right{
+    background-color:hsl(0, 0%, 100%) ;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+
+.reaction{
+    background-color: hsla(0, 100%, 67%, 0.199);
+    color: hsl(0, 100%, 67%);
+
+    display: flex;
+    align-items: center;
+
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.memory{
+    background-color: hsla(39, 100%, 56%, 0.144);
+    color: hsl(39, 100%, 56%);
+
+    display: flex;
+    align-items: center;
+
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.verbal{
+    background-color: hsla(166, 100%, 37%, 0.171);
+    color: hsl(166, 100%, 37%);
+
+    display: flex;
+    align-items: center;
+
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.visual{
+    background-color: hsla(234, 85%, 45%, 0.308);
+    color: hsl(234, 85%, 45%);
+
+    display: flex;
+    align-items: center;
+
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+button{
+    width: 100%;
+    background-color:hsl(224, 30%, 27%);
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}
+
+
+.alpha{
+    padding-left: 265px;
+    color: black;
+}
+
+.sigma{
+    color: rgba(0, 0, 0, 0.37);
+}
