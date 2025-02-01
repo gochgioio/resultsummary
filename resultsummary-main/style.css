@@ -1,0 +1,148 @@
+body{
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+
+    height: 100vh;
+}
+p{
+    margin: 0px;
+}
+.full{
+    display: flex;
+    border-radius: 20px;
+
+    box-shadow: 5px 20px 15px rgba(78, 33, 202, 0.096);
+}
+
+.left{
+    background: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    width: 350px;
+
+    
+}
+
+.circle{
+    padding-top: 10px;
+    margin: auto;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+   background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0) );
+}
+
+
+.right{
+    background-color:hsl(0, 0%, 100%) ;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+
+.reaction{
+    background-color: hsla(0, 100%, 67%, 0.199);
+    color: hsl(0, 100%, 67%);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-right: 10px;
+}
+.reaction div{
+    display: flex;
+}
+
+.memory{
+    background-color: hsla(39, 100%, 56%, 0.144);
+    color: hsl(39, 100%, 56%);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.memory div{
+    display: flex;
+}
+
+.verbal{
+    background-color: hsla(166, 100%, 37%, 0.171);
+    color: hsl(166, 100%, 37%);
+
+    display: flex;
+    align-items: center;
+
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+.verbal div{
+    display: flex;
+}
+
+.visual{
+    background-color: hsla(234, 85%, 45%, 0.308);
+    color: hsl(234, 85%, 45%);
+
+    display: flex;
+    align-items: center;
+
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+.visual div{
+    display: flex;
+}
+
+button {
+    width: 100%;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    transition: 0.5s ; 
+}
+
+button:hover {
+    background-color: hsl(252, 100%, 67%);
+}
+
+
+
+.alpha{
+    color: black;
+}
+
+.sigma{
+    color: rgba(0, 0, 0, 0.37);
+}
+
+
+.tjai{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bla{
+    padding-bottom: 50px;
+   color: hsla(220, 1%, 59%, 0.74)
+}
+
+.youscored{
+    color: hsla(225, 2%, 67%, 0.877);
+}
