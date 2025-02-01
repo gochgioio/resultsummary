@@ -16,10 +16,12 @@ p{
 }
 
 .left{
-    background-color: hsl(252, 100%, 67%);
+    background: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
     text-align: center;
     border-radius: 20px;
     color: white;
+    width: 350px;
+
     
 }
 
@@ -30,13 +32,13 @@ p{
     width: 150px;
     height: 150px;
     border-radius: 100%;
-    background-color: hsla(256, 72%, 46%, 1);
+   background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0) );
 }
 
 
 .right{
     background-color:hsl(0, 0%, 100%) ;
-    width: 400px;
+    width: 300px;
     padding: 20px;
     border-radius: 20px;
     
@@ -48,10 +50,15 @@ p{
 
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 5px;
+    padding-right: 10px;
+}
+.reaction div{
+    display: flex;
 }
 
 .memory{
@@ -60,10 +67,14 @@ p{
 
     display: flex;
     align-items: center;
-
+    justify-content: space-between;
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 5px;
+}
+
+.memory div{
+    display: flex;
 }
 
 .verbal{
@@ -76,6 +87,10 @@ p{
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 5px;
+    justify-content: space-between;
+}
+.verbal div{
+    display: flex;
 }
 
 .visual{
@@ -88,22 +103,46 @@ p{
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 5px;
+    justify-content: space-between;
+}
+.visual div{
+    display: flex;
 }
 
-button{
+button {
     width: 100%;
-    background-color:hsl(224, 30%, 27%);
+    background-color: hsl(224, 30%, 27%);
     border-radius: 20px;
     padding: 10px;
     color: white;
+    transition: 0.5s ; 
+}
+
+button:hover {
+    background-color: hsl(252, 100%, 67%);
 }
 
 
+
 .alpha{
-    padding-left: 265px;
     color: black;
 }
 
 .sigma{
     color: rgba(0, 0, 0, 0.37);
+}
+
+
+.tjai{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bla{
+    padding-bottom: 50px;
+   color: hsla(220, 1%, 59%, 0.74)
+}
+
+.youscored{
+    color: hsla(225, 2%, 67%, 0.877);
 }
